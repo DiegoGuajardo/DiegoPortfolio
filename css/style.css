@@ -9,6 +9,7 @@ body {
 header {
   background: #333;
   color: white;
+   text-align: center;
   padding: 1rem;
 }
 
@@ -19,7 +20,17 @@ nav a {
 }
 
 main {
-  padding: 2rem;
+  padding-right: 200px;
+  padding-left: 200px;
+
+  .profile-img{
+  width: 200px;
+  height: auto;
+  border-radius: 100px;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
 }
 
 footer {
