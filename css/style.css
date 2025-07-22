@@ -91,11 +91,20 @@ footer {
 }
 
 .morse-img {
- max-width: 50%;
+ max-width: 70%;
   height: auto;
   margin-bottom: 0.5rem;
   display: block;
  }
+
+#tile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* horizontally center content */
+  justify-content: center; /* vertically center if needed */
+  text-align: center;
+}
+
 
 /* CONTACT PAGE */
 .resume-container {
