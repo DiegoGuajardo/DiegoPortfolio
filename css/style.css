@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Georgia, serif;
   margin: 0;
   padding: 0;
   background: #f9f9f9;
@@ -39,7 +39,41 @@ footer {
   padding: 1rem;
 }
 
-/* Project Section */
+/* index PAGE */
+.fade-in {
+  animation: fadeIn 2s ease-in-out;
+  animation-fill-mode: forwards; /* THIS keeps the element visible after animation ends */
+  opacity: 0;
+
+  /* h2 equivalent do add div block */
+  display: block;
+  font-size: 3em; /* Adjust as needed for desired size */
+  font-weight: bold;
+  margin-top: 0.83em; /* Equivalent to margin-before */
+  margin-bottom: 0.83em; /* Equivalent to margin-after */
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+#intro{
+padding-right: 25%;
+padding-left: 25%;
+}
+
+/* about PAGE */
+#bio{
+padding-right: 15%;
+padding-left: 15%;
+}
+/* project PAGE*/
 
 .projects-grid {
   display: grid;
@@ -106,7 +140,7 @@ footer {
 }
 
 
-/* CONTACT PAGE */
+/* resume PAGE */
 .resume-container {
   display: flex;
   justify-content: center;
@@ -130,3 +164,34 @@ footer {
   background-color: #005fa3;
   transform: translateY(-3px);
 }
+
+#resume-section {
+  display: flex;
+  flex-direction: column;  /* Stack items vertically */
+  align-items: center;     /* Center horizontally */
+  padding: 40px 20px;
+}
+.resume-pdf {
+  width: 90vw;
+  height: 90vh;
+  max-width: 1000px;
+  border: none;
+  margin-bottom: 20px;     /* Adds space between PDF and button */
+}
+
+.resume-button {
+  background-color: #007BFF;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: #0056b3;
+}
+
+
