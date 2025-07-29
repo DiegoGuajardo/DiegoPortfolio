@@ -194,4 +194,50 @@ padding-left: 15%;
   background-color: #0056b3;
 }
 
+/* CONTACT */
+
+#contact {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+#contact p {
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+button {
+  padding: 0.75rem;
+  background-color: #2a5298;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e3c72;
+}
 
