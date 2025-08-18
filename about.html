@@ -5,28 +5,48 @@
     <title>About Me</title>
     <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
-<header>
-    <h1>About Me</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-        <a href="resume.html">Resume</a>
+<div class="page-container">
+    <header>
+        <nav class="navbar">
+            <div class="logo">DiegoPortfolio.pages.dev</div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+                <a href="resume.html">Resume</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <img src="images/profile.jpg" alt="Photo of Diego" class="profile-img">
+        <section id="bio">
+            <!--  <p>
+                  paragraph placeholder
+            </p>  -->
+        </section>
+        <section class="bio-timeline">
+            <div class="bio-card left">
+                <p><strong>🎓 Computer Science Graduate:</strong><br> I earned my <strong>Bachelor’s in Computer Science</strong> from UMGC, where I built a solid foundation in Java, Python, and web development. I developed projects that improved my understanding of algorithms, object-oriented programming, and software design.</p>
+            </div>
+            <div class="bio-card right">
+                <p><strong>🏡 Sales at Tri Pointe Homes:</strong><br> I began as a <strong>Sales Assistant</strong>, where I supported New Home Advisors by greeting and qualifying potential buyers, managing meetings, updating clients on their home progress, maintaining model home presentation, and handling data entry and reporting in Salesforce CRM. After being promoted to <strong>New Home Advisor</strong>, I took on full ownership of the client experience, from initial tours through to closing. Without a supporting assistant, I handled everything from generating contracts and updating CRM records to coordinating with design, construction, finance, and title teams. I consistently exceeded sales goals while maintaining high customer satisfaction throughout the process.</p>
+            </div>
+            <div class="bio-card left">
+                <p><strong>📊 Data-Driven Decision Maker:</strong><br> I’ve worked with Power BI dashboards to understand buyer trends and market dynamics. I used this insight to identify opportunities and align my efforts with high-converting leads, helping drive efficient business operations.</p>
+            </div>
+            <div class="bio-card right">
+                <p><strong>🧑‍💻 Technical Skills & Internships:</strong><br> Through virtual internships, I contributed to backend Java microservices and designed Android app interfaces using Backpack. These experiences sharpened my understanding of API integration, version control, and clean UI/UX design.</p>
+            </div>
+            <div class="bio-card left">
+                <p><strong>🚀 Launching into Tech:</strong><br> This portfolio is a reflection of my continued learning. From HTML/CSS layouts to hands-on scripting and exploring automation and cloud tools, I’m passionate about solving real-world problems through smart, user-centered solutions.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Diego Guajardo</p>
+    </footer>
 
-    </nav>
-</header>
-<main>
-    <img src="images/profile.jpg" alt="Photo of Diego" class="profile-img">
-<section id="bio">
-    <p>Hi! I'm Diego, a detail-oriented and solution-driven professional with a background in client-facing roles and a growing portfolio of software development projects. I earned my Bachelor's degree in Computer Science from UMGC, and I've since been honing my skills in full-stack development, with experience in Java, Python, HTML, CSS, JavaScript, SQL, and more.
-        <br><br>Before transitioning into tech, I worked for several years in the homebuilding industry, where I managed customer relationships, scheduled complex workflows, handled documentation, and coordinated with cross-functional teams. That experience taught me the value of communication, persistence, and staying organized under pressure, qualities I now bring to every line of code I write and every project I build.
-        <br><br>Whether I’m developing applications, learning new frameworks, or collaborating with others, I enjoy solving real-world problems and building tools that make things simpler, more intuitive, or just more beautiful. I’m currently building out my portfolio and looking for opportunities where I can contribute to meaningful projects and grow as a developer.
-        Thanks for visiting!
-
-    </p>
-</section>
-</main>
-</body>
+    <script src="js/main.js"></script>
+</div>
 </html>
